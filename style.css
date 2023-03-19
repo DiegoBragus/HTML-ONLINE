@@ -1,0 +1,59 @@
+.card {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #b725d8f4;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #f3f3f3;
+    text-align: justify;
+    }
+    
+    .image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    animation: pulse 1.5s infinite;
+    }
+    
+    @keyframes pulse {
+    0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+    70% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    }
+    100% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    }
+    }
+    
+    .title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ecf8f1;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    animation: pulseTitle 1.5s infinite;
+    }
+    
+    @keyframes pulseTitle {
+    0% {
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+    }
+    70% {
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
+    }
+    100% {
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
+    }
+    }

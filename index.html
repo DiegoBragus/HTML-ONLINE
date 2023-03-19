@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aniversário de namoro</title>
+
+<link rel="stylesheet" href="./style.css">
+
+	<style type="text/css">
+		/* Estilos da imagem com efeito de brilho */
+		.image {
+		  display: block;
+		  margin: 0 auto;
+		  max-width: 100%;
+		  height: auto;
+		  border-radius: 50%;
+		  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+		  position: relative;
+		}
+
+		.image:before {
+		  content: '';
+		  display: block;
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 40%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0) 100%);
+		  opacity: 0;
+		  border-radius: 50%;
+		  transition: opacity 0.5s ease-in-out;
+		}
+
+		.image:hover:before {
+		  opacity: 1;
+		}
+
+		/* Estilos do cartão */
+		.card {
+			width: 80%;
+			max-width: 500px;
+			margin: 0 auto;
+			background-color: #b725d8f4;
+			padding: 20px;
+			border-radius: 20px;
+			box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+			font-family: Arial, sans-serif;
+			font-size: 18px;
+			line-height: 1.5;
+			color: #f3f3f3;
+			text-align: justify;
+		}
+
+		.title {
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			color: #ecf8f1;
+			text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
+		}
+
+		.heart {
+			float: right;
+			margin-top: 10px;
+			width: 30px;
+			height: 30px;
+		}
+	</style>
+</head>
+<body>
+	<div class="card">
+		<img class="image" src="https://cdn.shopify.com/s/files/1/0305/4075/9177/products/poster-decorativo-coelhinha-fofa-em-bege-n09233-792672.jpg?v=1643345993" alt="Coelhinho">
+		<h1 class="title">Feliz aniversário de namoro, minha coelhinha!</h1>
+		<p>Minha Rainha linda,</p>
+		<p>Hoje é um dia muito especial, pois é o aniversário de nosso namoro. E eu não poderia deixar de expressar todo o meu amor por você nesta data.</p>
+		<p>Você é a pessoa mais importante da minha vida, a razão do meu sorriso e o motivo da minha felicidade. Eu sou grato por todos os momentos que passamos juntos, pelas risadas e pelas lágrimas, pelos desafios que superamos e pelas conquistas que alcançamos.</p>
+		<p>Você é a minha coelhinha, a minha doce flor noturna, que me ensina todos os dias o verdadeiro significado do amor e da cumplicidade. E por isso, eu quero que saiba que eu te amo mais do que tudo nesta vida.</p>
+		<p>Obrigado por existir, minha coelhinha Kelly.</p>
+		<p>Com todo o meu amor,</p>
+		<p>Seu Morcego apaixonado Diego.</p>
+	</div>
+</body>
+</html>
